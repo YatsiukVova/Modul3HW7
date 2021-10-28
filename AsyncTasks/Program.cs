@@ -27,7 +27,6 @@ namespace Modul3HW7
             {
                 Console.WriteLine(((Task<int>)task).Result);
             }
-
         // №2
         var timer = 10000;
             cancellationTokenSource.CancelAfter(timer);
